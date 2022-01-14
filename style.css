@@ -36,6 +36,7 @@ body{
     align-items: center;
     padding-top: 50px;
 }
+
 .influencer{
     width: 50%;
     padding: 20px 80px;
@@ -62,3 +63,43 @@ body{
     width: 500px;
 }
 /* popular-collection-area style start */
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.see-more{
+    text-decoration: none;
+    text-align: right;
+}
+.popular-titel{
+    font-size: 28;
+    color: var(--text-color);
+    text-align:center;
+    margin: 30px ;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px ;
+    grid-row-gap: 30px;
+}
+.product{
+    padding: 16px;
+    box-shadow: 5px 5px 30px rgb(243 240 240);
+}
+.product .product-bannar img{
+    width: 340px;
+    height: 256px;
+}
+.products-didets p{
+    color: var(--text-color);
+}
+.filed{
+    color:gold
+}
+.emptry{
+    color: gray;
+}
+.product-didetils{
+    color: var(--text-color);
+}
