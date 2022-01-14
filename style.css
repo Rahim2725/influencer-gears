@@ -67,10 +67,7 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.see-more{
-    text-decoration: none;
-    text-align: right;
-}
+
 .popular-titel{
     font-size: 28;
     color: var(--text-color);
@@ -102,4 +99,17 @@ body{
 }
 .product-didetils{
     color: var(--text-color);
+}
+.container a{
+    text-decoration: none;
+    text-align: right;
+}
+
+.see-more-button{
+    text-align: right;
+    margin-right: 80px;
+}
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;      
 }
