@@ -4,6 +4,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-bottom: 50px;
+}
 /* navigation style  */
 .navigation{
     display: flex;
@@ -69,7 +72,7 @@ body{
 }
 
 .popular-titel{
-    font-size: 28;
+    font-size: 28px ;
     color: var(--text-color);
     text-align:center;
     margin: 30px ;
@@ -112,4 +115,48 @@ body{
 .see-more{
     text-decoration: none;
     color: #E02C6D;      
+}
+/* camera-accessoris style start  */
+.camera-accessoris{
+    display: flex;
+  
+}
+.hafe-width{
+    width: 50%;
+   
+}
+.hafe-width img{
+    width: 400px;
+    height: 270px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.text{
+    margin-right: 80px;
+    margin-left: 0px;
+}
+.text h1{
+    font-size: 38px;
+    color: #0A0826;
+}
+.text p{
+    text-align: justify;
+}
+
+
+/* footrt style  */
+.footer-influ{
+    font-weight: 700;
+    color: white;
+    background-color: #0A0826;
+    padding: 30px 0px;
+
+}
+.footer-influ a{
+    color: white;
+    margin: 5px;
+}
+.footer-influ{
+    text-align: center;
+    margin: 0px;
 }
