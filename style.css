@@ -94,6 +94,7 @@ section{
 .products-didets p{
     color: var(--text-color);
 }
+
 .filed{
     color:gold
 }
@@ -210,6 +211,7 @@ section{
     }
     .hafe-width img{
         width: 100%;
+        
        
     }
     .hafe-width h1{
@@ -220,6 +222,5 @@ section{
         width: 100%;
     }
     }
-    
     
     
