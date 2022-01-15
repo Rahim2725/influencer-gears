@@ -31,6 +31,11 @@ section{
     color:#3A3A3A;
     margin-left: 30px;
 }
+
+
+
+
+
 /* start-influencer-area start style  */
 
 .start-influencer-area{
@@ -65,6 +70,11 @@ section{
 .influencer img{
     width: 500px;
 }
+
+
+
+
+
 /* popular-collection-area style start */
 .container{
     margin-left: 80px;
@@ -117,6 +127,12 @@ section{
     text-decoration: none;
     color: #E02C6D;      
 }
+
+
+
+
+
+
 /* camera-accessoris style start  */
 .camera-accessoris{
     display: flex;
@@ -140,7 +156,14 @@ section{
     color: #0A0826;
 }
 .text p{
-    text-align: justify;
+       margin-bottom: 20px;
+}
+.join-now-button{
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 20px;
 }
 
 
@@ -160,6 +183,10 @@ section{
     text-align: center;
     margin: 0px;
 }
+
+
+
+
 /* media query  */
 @media only screen and (max-width:688px) {
     .nav-influencer h3{
@@ -199,16 +226,18 @@ section{
     .popular-titel{
         font-size:25px;
     }
-   
+   .container{
+       margin-bottom: 60px;
+   }
     .camera-accessoris{
-        display: block;
-        justify-content: center;
+       flex-direction: column;
     }
-    .hafe-width{
+
+    /* .hafe-width{
         width: 50%;
         margin-left:80px;
         
-    }
+    } */
     .hafe-width img{
         width: 100%;
         
