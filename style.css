@@ -122,8 +122,7 @@ section{
   
 }
 .hafe-width{
-    width: 50%;
-   
+    width: 50%;   
 }
 .hafe-width img{
     width: 400px;
@@ -160,3 +159,67 @@ section{
     text-align: center;
     margin: 0px;
 }
+/* media query  */
+@media only screen and (max-width:688px) {
+    .nav-influencer h3{
+        text-align: center;
+    }
+    .nav-anchor{
+        display: none;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        
+    }
+    .product{
+        width:100%;
+    }
+    .influencer{
+        width: 50%;
+        margin-left: 40px;
+     
+    }
+   .influencer h1{
+    font-size: 25px;
+   }
+    section{
+        margin: 0;
+        margin: 0;
+    }
+    .start-influencer-area{
+        display: block;
+        margin: 0;
+    }
+    .influencer img{
+        width: 100%;
+        justify-content: center;
+    }
+    .popular-titel{
+        font-size:25px;
+    }
+   
+    .camera-accessoris{
+        display: block;
+        justify-content: center;
+    }
+    .hafe-width{
+        width: 50%;
+        margin-left:80px;
+        
+    }
+    .hafe-width img{
+        width: 100%;
+       
+    }
+    .hafe-width h1{
+        font-size: 30px;
+        
+    }
+    .footer-influ{
+        width: 100%;
+    }
+    }
+    
+    
+    
